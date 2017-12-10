@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="MicroChartsXfDemo.MainPage"
+             BackgroundColor="Black">
+
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Microcharts" TextColor="White" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" />
+            <forms:ChartView x:Name="MyDonutChart" HeightRequest="125" />
+            <forms:ChartView x:Name="MyBarChart" HeightRequest="125" />
+            <forms:ChartView x:Name="MyPointChart" HeightRequest="125" />
+            <forms:ChartView x:Name="MyRadialGaugeChart" HeightRequest="125" />
+            <forms:ChartView x:Name="MyLineChart" HeightRequest="125" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
